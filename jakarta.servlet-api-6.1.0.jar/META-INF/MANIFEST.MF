@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Build-Jdk-Spec: 11
+Bundle-Description: Jakarta Servlet 6.1
+Bundle-DocURL: https://www.eclipse.org
+Bundle-License: http://www.eclipse.org/legal/epl-2.0, https://www.gnu.or
+ g/software/classpath/license.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Jakarta Servlet
+Bundle-SymbolicName: jakarta.servlet-api
+Bundle-Vendor: Eclipse Foundation
+Bundle-Version: 6.1.0
+Export-Package: jakarta.servlet;uses:="jakarta.servlet.annotation,jakart
+ a.servlet.descriptor";version="6.1.0",jakarta.servlet.annotation;uses:=
+ "jakarta.servlet";version="6.1.0",jakarta.servlet.descriptor;version="6
+ .1.0",jakarta.servlet.http;uses:="jakarta.servlet";version="6.1.0",jaka
+ rta.servlet.resources;version="6.1.0"
+Extension-Name: jakarta.servlet
+Implementation-Vendor: Eclipse Foundation
+Implementation-Vendor-Id: org.eclipse
+Implementation-Version: 6.1.0
+Import-Package: jakarta.servlet,jakarta.servlet.annotation,jakarta.servl
+ et.descriptor,java.io,java.lang,java.lang.annotation,java.lang.invoke,j
+ ava.lang.reflect,java.net,java.nio,java.nio.charset,java.security,java.
+ text,java.util,java.util.function,java.util.stream
+Private-Package: jakarta.servlet,jakarta.servlet.annotation,jakarta.serv
+ let.descriptor,jakarta.servlet.http,.
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Specification-Vendor: Eclipse Foundation
+Specification-Version: 6.1
+Tool: Bnd-6.3.1.202206071316
+
